@@ -1,2 +1,5 @@
 jenkins key
 cc7355a2371c8d0f83108d3f17fcf3974ecd2a29
+
+https://github.com/z825508810/jenkinsdemo1.git
+git@github.com:z825508810/jenkinsdemo1.git
