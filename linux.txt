@@ -3,3 +3,5 @@ cc7355a2371c8d0f83108d3f17fcf3974ecd2a29
 
 https://z825508810:zyzp2019@github.com/z825508810/jenkinsdemo1.git
 git@github.com:z825508810/jenkinsdemo1.git
+ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY '123456';
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
