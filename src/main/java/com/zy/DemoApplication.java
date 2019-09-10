@@ -29,6 +29,10 @@ public class DemoApplication {
 	public String hello() {
 		return "hello world";
 	}
+	@GetMapping("/hello")
+	public String helloworld() {
+		return "hello world";
+	}
 
 	@GetMapping("/{phone}/{msg}")
 	public String sendMsg(@PathVariable("phone") String phone, @PathVariable("msg") String msg) {
